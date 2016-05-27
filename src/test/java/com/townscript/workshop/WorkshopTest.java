@@ -8,8 +8,7 @@ public class WorkshopTest {
 
 	@Test
     public void testEvenOddNumber(){
-		int number = 10;
-		boolean isEven = number%2 == 0;
-        assertEquals("10 is a even number", true, isEven);
+		EvenOdd meo = new EvenOdd();
+        assertEquals("10 is a even number", true, meo.isEvenNumber(10));
     }
 }
